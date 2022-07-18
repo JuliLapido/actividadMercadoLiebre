@@ -1,0 +1,199 @@
+/*header{
+    background-color: #EAC926; 
+    margin: 0rem;
+    padding: non;
+    width: 100vw;
+    
+}*/
+
+.main-header{
+    background-color: #EAC926;
+    padding: 1.25rem;
+}
+
+
+
+.hamburguer-button{
+    background-color: #03264C;
+    color:white;
+    display: block;
+    max-width: 3.125rem;
+    padding: 0.938rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.125rem;
+    margin: auto;
+}
+
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center;
+
+}
+
+.logo{
+    width: 40vw;
+}
+
+.nav-search{
+    width: 35vw;
+    align-items: rigth;
+    border-radius: 5 5 5 5;
+    border: none;
+    
+}
+
+
+
+.copy-header{
+    font-weight: 400;
+    font-size: 0.875rem;
+    
+}
+
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 0.313rem 0;
+    font-size: 1.063rem;
+}
+
+@media (min-width: 768px) {
+    .main-header-top-bar{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around ;
+        align-items: center;
+        
+    }
+    .copy-header{
+        justify-content: center;
+        
+        
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 0.313rem
+    }
+
+@media (min-width: 1028px){
+    /*.logo{
+        width: 15.625rem;
+    }
+
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        margin: 0;
+        max-width: none;
+        font-size: 1.375rem;
+        font-weight: 400;
+    }*/
+
+    .logo{
+        width: 30vw;
+    }
+    .copy-header{
+        width: 30vw;
+    }
+
+    .nav-search{
+        width: 30vw;
+    }
+
+
+
+    .main-navbar li{
+        margin: 0 0.625rem
+    }
+    .main-navbar a{
+        font-size: 1.188rem;
+    }
+
+    .main-navbar{
+        margin-top: 3.125rem;
+    }
+}
+
+}
+
+
+
+
+
+/*.article-heading{
+
+    background-color: #EAC926;
+    line-height: .3rem;
+    text-decoration: none ;
+    margin: 0.3rem; 
+    
+}
+
+/*a{
+    color: black;
+    text-decoration: none ;
+    font-size: 1.5rem;
+    
+}
+
+.fa-id-card{
+    font-size: 1rem;
+}
+
+.fa-right-to-bracket{
+    font-size: 1rem;
+}
+
+.fa-basket-shopping{
+    font-size: 1rem;
+}
+
+.burger-menu{
+    display: inline-block;
+    border-radius: 0%;
+    background-color: #03264C;
+    padding: 1rem ;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+.article-heading{
+    
+    padding: 1rem;
+
+}
+

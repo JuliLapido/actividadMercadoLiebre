@@ -1,0 +1,45 @@
+.form-register{
+    padding: 2rem;
+    margin: 0rem;
+    
+    
+}
+
+.label-form{
+    display: block;
+    margin: 2rem;
+    text-align: left;
+    font-size: 1.525rem;
+    text-decoration: bold;
+    font-style: italic;
+    
+}
+
+.lista-form{
+    margin: 0;
+    padding: 0;
+}
+
+.input-separa{
+    display: block;
+    border: #ebebeb;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: 1rem;
+    width: 60vw;
+
+}
+
+.item-lista{
+    list-style: none;
+}
+
+.botonera{
+    width: 90%;
+    margin: 3rem;
+}
+
+
+
+

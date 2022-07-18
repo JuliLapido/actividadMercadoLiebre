@@ -1,0 +1,149 @@
+
+
+
+.banner{
+    max-width: 100%;
+    
+}
+
+main{
+    width: 100%;
+    background-color: #ebebeb;
+    margin-top: -10;
+    
+
+    
+}
+
+
+
+.seccion-productos{
+    
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+    .proctuto:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: 250ms;
+    }
+
+    .proctuto {
+        background-color: #ebebeb;
+        margin: 0.625rem ;
+        position: relative;
+        
+    }
+
+    .foto-producto{
+        width: 100%;
+    }
+
+    
+
+    .detalle-producto {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: solid 0.033rem #ebebeb ;
+    background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+    position: relative;
+    
+    
+    }
+
+    
+
+    .titulo {
+        
+        color: #666;
+        font-size: 1.5rem;
+        margin: 2rem;
+        display: inline;
+    }
+
+    .precios {
+        width: 10%;
+        display: flex;
+        font-size: 1.125rem;
+        margin: 0% 5%;
+    }
+
+    .camion:hover{
+        transform: rotate(-90deg);
+        transition: 250ms;
+    }
+
+    .camion {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        
+        ;
+        
+        
+        
+        }
+
+    .descuento {
+        width: 30%;
+        color: #39b54a;
+        font-size: 1rem;
+        margin: 5% 25%;
+    }
+
+
+    .nombre-producto:hover{
+        opacity: 1;
+    }
+
+    .nombre-producto{
+        color: #666;
+        font-size: 1rem;
+        margin: 5% 5% ;
+        opacity: 0;
+        transition: 250ms;
+        
+    }
+
+    
+
+    @media (min-width: 768px) {
+        .seccion-productos{
+            justify-content: space-around ;
+        }
+        .proctuto{
+            width: 40%;
+            /*box-shadow: 0px 0px 10px rgb(100, 100, 100);*/
+        }
+
+    }
+
+    @media (min-width: 1028px){
+        .seccion-productos{
+            justify-content: space-around ;
+        }
+        .proctuto{
+            width: 20%;
+            /*box-shadow: 0px 0px 10px rgb(100, 100, 100);*/
+        }
+    }
+    
+    
+
+
+
+
+
